@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+    </header>
+    <main>
+        <h2>Book an Appointment</h2>
+        <form id="appointment-form">
+            <label for="clinic">Clinic:</label>
+            <input type="text" id="clinic" name="clinic" required>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+            <button type="submit">Confirm Appointment</button>
+        </form>
+        <h2>Upcoming Appointments</h2>
+        <ul id="appointments-list"></ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
